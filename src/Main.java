@@ -12,7 +12,6 @@ public class Main {
         System.out.println("Bonjour " + prenom + " !");
 
 
-
         calculNombre(scanner);
         nombrePositif(scanner);
         prixTTC(scanner);

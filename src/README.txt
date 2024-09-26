@@ -1,7 +1,8 @@
 #
+# CONDITIONS PART1
 # Exercices d'algorithmes et de programmation en Java
 
-### 1. Programme : Salutation personnalisée
+### 1. Programme : Presentation
 
 Écrire un programme qui demande le prénom de l'utilisateur et lui répond avec un charmant « Bonjour » suivi du prénom.
 
@@ -90,3 +91,115 @@ Les habitants de Zorglub paient l’impôt selon les règles suivantes :
 ### 17. Algorithme : Afficher deux nombres dans l'ordre croissant
 
 Écrire un algorithme qui demande deux nombres entiers (x, y) et les affiche à l’écran dans l’ordre croissant.
+
+### BOUCLES PART2
+
+### 1. Afficher les dix nombres suivants
+
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche les dix nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, le programme affichera les nombres de 18 à 27.
+
+### 2. Table de multiplication
+
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite écrit la table de multiplication de ce nombre, présentée comme suit (cas où l'utilisateur entre le nombre 7) : Tablede7:
+7x1=7
+7x2=14 7x3=21 ... 7x10=70
+
+### 3. Afficher les nombres de 1 jusqu'à un nombre donné
+
+Écrire un algorithme qui demande à l'utilisateur un nombre et qui affiche les nombres de 1 jusqu’à ce nombre.
+
+### 4. Afficher les nombres pairs de 1 jusqu'à un nombre donné
+
+Écrire un algorithme qui demande à l'utilisateur un nombre et qui affiche les nombres pairs de 1 jusqu’à ce nombre.
+Ex:les nombres pairs de 1 à 11 sont: 246810
+
+### 5. Afficher les nombres impairs de 1 jusqu'à un nombre donné
+
+Écrire un algorithme qui demande à l'utilisateur un nombre et qui affiche les nombres impairs de 1 jusqu’à ce nombre.
+Ex:les nombres impairs de 1 à 11 sont: 1357911
+
+### 6. Afficher les nombres du plus petit au plus grand
+
+Écrire un algorithme qui demande à l'utilisateur deux nombres et qui affiche les nombres du plus petit au plus grand.
+Ex : Donnez le nbr 1 : 9
+Donnezlenbr2:4 Leprogramme:456789
+
+### 7. Calculer la somme des entiers jusqu'à un nombre donné
+
+Ecrire un algorithme qui demande un nombre de départ, et qui calcule la somme des entiers jusquʼà ce nombre. Par exemple, si lʼon entre 5, le programme doit calculer : 1+2+3+4+5=15
+
+### 8. Calculer la factorielle d'un nombre
+
+Ecrire un algorithme qui demande un nombre de départ, et qui calcule sa factorielle. NB : la factorielle de 8, notée 8 ! vaut
+1x2x3x4x5x6x7x8
+
+### 9. Trouver le plus grand parmi 20 nombres
+
+Ecrire un algorithme qui demande successivement 20 nombres à lʼutilisateur, et qui lui dise ensuite quel était le plus grand parmi ces 20 nombres :
+Entrez le nombre numéro 1 : 12
+Entrez le nombre numéro 2 : 14
+etc.
+Entrez le nombre numéro 20 : 6
+Le plus grand de ces nombres est : 14
+Modifiez ensuite lʼalgorithme pour que le programme affiche de surcroît en quelle position avait été saisie ce nombre :
+C’était le nombre numéro 2
+
+### 10. Calculer la moyenne d'une classe
+
+Pour avoir une idée sur le niveau des élèves d’une classe, on a décidé de calculer la moyenne de la classe à partir des moyennes générales de tous les élèves qui sont au nombre de 10. Ecrire un algorithme de résolution.
+
+### 11. Afficher la moyenne de la taille de 10 personnes
+
+Ecrire un algorithme qui demande de saisir au clavier la taille de 10 personnes et qui calcule le nombre de personnes dont la taille est plus petite que 1,70m.
+
+### 12. Afficher un carré de 5 étoiles
+
+Écrire un algorithme qui demande à l'utilisateur un nombre et qui affiche :
+5
+'*****'
+'*****'
+'*****'
+'*****'
+'*****'
+
+### 13. Afficher:
+5
+'*'
+'**'
+'***'
+'****'
+'*****'
+
+### 14. Afficher:
+5
+'*****'
+'****'
+'***'
+'**'
+'*'
+
+### 15. Afficher:
+5
+*****
+ ****
+  ***
+   **
+    *
+
+### 16. Afficher:
+5
+   *
+   ***
+  *****
+ *******
+*********
+
+### 17. Afficher:
+***********
+ *********
+  *******
+   *****
+    ***
+     *
+
+
