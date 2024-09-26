@@ -132,9 +132,9 @@ public class Main {
             System.out.println("Le nombre est nul.");
         } else {
             if (nombre > 0 )  {
-                System.out.println("Le produit est positif.");
+                System.out.println("Le nombre est positif.");
             } else {
-                System.out.println("Le produit est négatif.");
+                System.out.println("Le nombre est négatif.");
             }
         }
     }

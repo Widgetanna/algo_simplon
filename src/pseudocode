@@ -1,0 +1,144 @@
+*/ 1
+Variable prenom en Caractere
+Début
+Écrire “Quel est votre prénom?”
+Lire prenom
+Écrire “Bonjour", prenom
+Fin
+*/ 2
+Variable nombre en Entier
+Début
+Écrire “Entrez nombre”
+Lire nombre
+Resultat ← nombre * nombre
+Renvoyer Resultat
+Fin
+*/ 3
+Variable nombre en Entier
+Début
+Écrire “Entrez nombre”
+Lire nombre
+Si nombre > 0 Alors
+Positif
+Sinon
+Negatif
+Finsi
+Fin
+*/ 4
+Variable prixHt, taxe, resultat en Numérique
+Variable nombreArticles en Entier
+Début
+Lire prixHt
+Lire taxe
+Lire nombreArticles
+resultat ← prixHT * (1 + (taxe / 100));
+Lire resultat
+Fin
+*/ 5
+Variable nombreA, nombrB en Entier
+Début
+Écrire “Entrez nombre A”
+Lire nombreA
+Écrire “Entrez nombre B”
+Lire nombreB
+Si nombreA > 0 && nombreB > 0 Et nombreA < 0 && nombreB < 0
+Lire "Le produit est positif."
+Sinon
+Lire "Le produit est négatif."
+Finsi
+Fin
+*/ 6
+Variable nombre1, nombre3, nombre3 en Entier
+Début
+Écrire “Entrez nombre 1”
+Lire nombre1
+Écrire “Entrez nombre 2”
+Lire nombre2
+Écrire “Entrez nombre 3”
+Lire nombre3
+Si nombre1 <= nombre2 And nombre2 <= nombre3
+Lire "Les nombres sont dans l’ordre croissant."
+Sinon
+Lire "Les nombres ne sont pas dans l’ordre croissant."
+Finsi
+Fin
+*/ 7
+Variable nombre en Entier
+Si nombre > 0
+Lire "La valeur absolue de X = ", nombre
+Sinon
+Lire "La valeur absolue de X = ", (-nombre)
+Finsi
+Fin
+*/ 8
+Variable nombre1, nombre2 en Entier
+Début
+Écrire “Entrez nombre 1”
+Lire nombre1
+Écrire “Entrez nombre 2”
+Lire nombre2
+Si nombre 1 > O Or nombre2 > 0
+Lire 'au moins un nombre est positif."
+Sinon
+Lire 'aucun nombre positif'
+Finsi
+Fin
+*/ 9
+Variable nombre en Entier
+Début
+Écrire “Entrez nombre”
+Lire nombre
+Si nombre == 0
+Lire "Le nombre est nul."
+Sinon
+Si nombre > 0
+Lire "Le produit est positif."
+Sinon
+Lire "Le produit est négatif."
+Finsi
+Fin
+*/ 10
+Variable nombre1, nombre2 en Entier
+Début
+Écrire “Entrez nombre 1”
+Lire nombre1
+Écrire “Entrez nombre 2”
+Lire nombre2
+Si nombre1 == 0 Or nombre2 == 0
+Lire "Le produit est nul.");
+Sinon
+nombre1 > 0 And nombre2 > 0
+Lire "Le produit est positif.
+Sinon
+Lire "Le produit est négatif.
+Finsi
+Fin
+*/ 11
+Variable age as Entier
+Début
+Écrire “Entrez age d'enfant à partir de 6 ans”
+Lire age
+Si age >= 6 && age <= 7
+Lire "Catégorie : Poussin"
+Sinon age >= 8 && age <= 9
+Lire "Catégorie : Pupille"
+Sinon age >= 10 && age <= 11
+Lire "Catégorie : Minime"
+Sinon age >= 12
+Lire "Catégorie : Cadet"
+Finsi
+Fin
+*/ 12
+Variable heure, minutes as Entier
+Début
+Écrire “Entrez heure”
+Lire heure
+Écrire “Entrez minutes”
+Lire minutes
+minutes++;
+Si minutes == 60
+
+        if (minutes == 60) {
+            minutes = 00;
+            heure++;
+        }
