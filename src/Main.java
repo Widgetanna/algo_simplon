@@ -185,6 +185,9 @@ public class Main {
             minutes = 00;
             heure++;
         }
+        if (heure == 24) {
+            heure = 24;
+        }
 
         System.out.println("Oracle vous prédit que dans une minute, il sera " + heure + " heure " + minutes + " minute.");
     }
@@ -226,7 +229,7 @@ public class Main {
         } else {
             total = (10 * 0.10) + (20 * 0.09) + ((photocopies - 30) * 0.08);
         }
-        System.out.printf("Le montant total de la facture est : %.2f €\n", total);
+        System.out.printf("Le montant total de la facture est : %.2f €", total);
     }
     public static void impot(Scanner scanner) {
         System.out.println("Des impôts de Zorglub");

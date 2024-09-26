@@ -135,10 +135,47 @@ Début
 Lire heure
 Écrire “Entrez minutes”
 Lire minutes
-minutes++;
-Si minutes == 60
+minutes ← minutes +1
+Si minutes = 60 Alors
+      minutes ← 0
+      heure ← heure + 1
+Si heure = 24 Alors
+  heure ← 24
+Finsi
+Ecrire "Dans une minute il sera ", h, "heure ", m, "minutes"
+Fin
+*/ 13
+Variable heure, minutes, secondes as Entier
+Début
+Écrire “Entrez heure”
+Lire heure
+Écrire “Entrez minutes”
+Lire minutes
+Écrire “Entrez secondes”
+Lire secondes
+Début
+secondeses ← secondes +1
+Si secondes == 60 Alors
+secondes ← 0
+minutes ← minutes +1
+Si minutes == 60 Alors
+minutes ← 0
+heure  ← heure +1
+Finsi
+Si heure == 24 Alors
+heure ←  24;
+Finsi
+Fin
+*/ 14
+Variable nombrePhotocopie, resultat en Numérique
+Début
+Si photocopies <= 10 Alors
+resultat ← n * 0,1
+SinonSi photocopies <= 30 Alors
+resultat ← 10 * 0.10 + (photocopies - 10) * 0.09
+Sinon
+resultat ←  10 * 0.10 + 20 * 0.09 + (photocopies - 30) * 0.08
+Lire "Le montant total de la facture est : %.2f €", resultat
+Finsi
+Fin
 
-        if (minutes == 60) {
-            minutes = 00;
-            heure++;
-        }
