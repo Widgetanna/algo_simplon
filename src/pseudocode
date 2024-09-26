@@ -178,4 +178,54 @@ resultat ←  10 * 0.10 + 20 * 0.09 + (photocopies - 30) * 0.08
 Lire "Le montant total de la facture est : %.2f €", resultat
 Finsi
 Fin
-
+*/ 15
+Variable age en Entier
+Variable genre en Caractère
+Variable impotH impotF as Booleen
+Debut
+Ecrire "Veuillez entrer le genre homme soit femme"
+Lire genre
+Ecrire "Veuillez entrer l'âge :"
+Lire age
+impotH ←  genre == homme And age > 20;
+impotF ←  genre == femme And age >18 && age <= 35);
+Si impotH Or impotF
+Lire "Imposable"
+Sinon
+Lire "Non Imposable"
+Finsi
+Fin
+*/ 16
+Variable jour en Entier
+Debut
+Ecrire "Entrez le numero du jour de la semaine"
+Lire jour
+Si  jour == 1 Alors
+Lire "Lundi"
+SinonSi jour == 2 Alors
+Lire "Mardi"
+SinonSi jour == 3 Alors
+Lire "Mercredi"
+SinonSi jour == 4 Alors
+Lire "Jeudi"
+SinonSi jour == 5 Alors
+Lire "Vendredi"
+SinonSi jour == 6 Alors
+Lire "Samedi"
+Sinon
+Lire "Dimanche"
+Finsi
+Fin
+*/ 17
+Variable nombre1, nombre2 en Entier
+Ecrire "Entrez 1er numero"
+Lire nombre1
+Ecrire "Entrez 2eme numero"
+Lire nombre2
+Debout
+Si nombre1 < nombre2
+Lire "Les nombres dans l'ordre croissant : ", nombre1 ", ", nombre2
+Sinon
+Lire "Les nombres dans l'ordre non-croissant : ", nombre2 ", ", + nombre1
+Finsi
+Fin
