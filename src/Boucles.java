@@ -3,6 +3,20 @@ import java.util.Scanner;
 public class Boucles {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        /* #0  */
+
+        int index = 0;
+        for(index= 1; index<=3; ++index) {
+            System.out.println('*');
+            for(int k=1; k<=2; k++) {
+                System.out.println(index);
+            }
+        }
+        System.out.println("/n");
+        System.out.println(+index);
+        System.out.println("/n");
+        System.out.println(+index);
+
         /* #1     */
         System.out.println("Veuillez entrer un nombre");
         int nombre = scanner.nextInt();
@@ -193,6 +207,7 @@ public class Boucles {
             }
             System.out.println();
         }
+
     }
 }
 
